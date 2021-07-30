@@ -40,6 +40,16 @@ $ open http://localhost:8000/
 
 Troubleshooting
 ---------------
+For deploy, it was very mess.
+
+1. It wasn't quiet the RAM. It needs 2 pure RAM without Swap
+
+2. It was a problem with a module pager and  had to run the
+
+        php8.0 commposer.phar req <vendor>/<module>:<version>
+        
+3. There is a problem with MariaDB and JSON type of a column   
+
 
 If something goes wrong, errors & exceptions are logged at the application level:
 
